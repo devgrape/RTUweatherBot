@@ -14,7 +14,7 @@
 
 ### Installing
 
-	under development
+	pip install RTUweatherBot
 
 ### Settings
 
