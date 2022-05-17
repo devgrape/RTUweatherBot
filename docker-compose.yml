@@ -4,5 +4,9 @@ services:
   bot:
     build:
       context: .
+      command: python server.py
+      dockerfile: Dockerfile
     env_file:
       - .env
+      - PORT = 8080:8080
+    restart: always
